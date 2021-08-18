@@ -1,0 +1,6 @@
+/HELP.md
+/gradlew
+/gradlew.bat
+*.bin
+*.idx
+*.MF
