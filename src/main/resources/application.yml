@@ -12,6 +12,7 @@ spring :
       hibernate :
         #show_sql : true #콘솔에 로그가 나옴
         format_sql : true #이쁘게 해줌
+        use_sql_comments: true  #querydsl query 로그
 
 logging.level:
   org.hibernate.SQL: debug #콘솔에 남기는게 아니라 로그로 남음.
